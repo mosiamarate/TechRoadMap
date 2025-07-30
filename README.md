@@ -14,6 +14,8 @@ TechRoadMap/
 ├── README.md                   # Project documentation
 ├── about.html                  # About the platform
 ├── languages.html              # Programming & tech stacks overview
+├── language.js                 # JavaScript functionality for languages
+├── techroadmap.js              # JavaScript functionality for roadmaps
 ├── Tech Roadmap Structure.txt  # Project planning notes
 ├── assets/
 │   ├── style/
