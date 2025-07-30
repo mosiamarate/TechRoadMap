@@ -1,0 +1,50 @@
+Tech Roadmap Structure: 
+
+TechRoadMap/
+├── index.html
+├── README.md
+├── about.html
+├── languages.html
+├── Tech Roadmap Structure.txt
+├── assets/
+│   ├── style/
+│   │   ├── index.css
+│   │   ├── shared.css
+│   └── Mosia's image.png
+├── roadmaps/
+│   ├── backend-dev.html
+│   ├── blockchain.html
+│   ├── cloud-engineer.html
+│   ├── cybersecurity.html
+│   ├── data-analyst.html
+│   ├── devops.html
+│   ├── frontend-dev.html
+│   ├── fullstack-dev.html
+│   ├── game-dev.html
+│   ├── ml-engineer.html
+│   └── network-engineer.html
+├── languages/
+│   ├── javascript.html
+│   ├── python.html
+│   ├── java.html
+│   ├── react.html
+│   ├── angular.html
+│   ├── django.html
+│   ├── nodejs.html
+│   ├── docker.html
+│   ├── kubernetes.html
+│   ├── aws.html
+│   ├── azure.html
+│   ├── gcp.html
+│   ├── html-css.html
+│   ├── ruby-on-rails.html
+│   ├── flask.html
+│   ├── swift.html
+│   ├── php.html
+│   ├── typescript.html
+│   ├── csharp.html
+│   ├── go.html
+│   ├── rust.html
+│   ├── flutter.html
+│   ├── vuejs.html
+│   └── laravel.html

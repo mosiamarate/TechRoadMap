@@ -1,0 +1,237 @@
+/* Shared styles across all pages */
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.completed {
+    border: 2px solid limegreen;
+}
+
+a:hover {
+    color: #60a5fa;
+    transition: 0.3s;
+}
+
+input[type="text"]::placeholder {
+    color: #bbb;
+}
+
+.filterselect {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 2.5rem 0.5rem 0.75rem;
+    background-image: url("data:image/svg+xml,%3Csvg fill='white' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.939l3.71-3.71a.75.75 0 011.08 1.04l-4.24 4.25a.75.75 0 01-1.08 0L5.21 8.27a.75.75 0 01.02-1.06z' clip-rule='evenodd'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.filterselect:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
+}
+
+/* Body styles */
+body {
+    color: white;
+    font-family: sans-serif;
+    padding: 1.5rem;
+    min-height: 100vh;
+}
+
+/* Container styles */
+.container {
+    max-width: 72rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Header styles */
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.header p {
+    color: #9ca3af;
+}
+
+.header nav {
+    margin-top: 1rem;
+}
+
+.header nav a {
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+.header nav span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+/* Search and filter styles */
+.search-filter {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .search-filter {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+    }
+}
+
+.search-filter input[type="text"] {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    outline: none;
+    transition: 0.3s;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .search-filter input[type="text"] {
+        width: 50%;
+    }
+}
+
+.search-filter input[type="text"]:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
+}
+
+.search-filter label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Roadmap grid styles */
+.roadmap-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 640px) {
+    .roadmap-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+    .roadmap-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Info section styles */
+.info-section {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.info-section p {
+    color: #9ca3af;
+}
+
+/* Guide section styles */
+.guide-section {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    text-align: center;
+}
+
+.guide-section legend {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.guide-section p {
+    color: #9ca3af;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    color: #6b7280;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #1f2937;
+}
+
+.footer p:first-child {
+    margin-bottom: 0.5rem;
+}
+
+.footer strong {
+    font-weight: 600;
+}
+
+/* Roadmap card styles */
+.roadmap-card {
+    padding: 1rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.roadmap-card:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.roadmap-card h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.roadmap-card a {
+    color: #93c5fd;
+    text-decoration: none;
+}

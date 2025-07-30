@@ -1,0 +1,10 @@
+{
+    "liveServer.settings.port": 5501
+    , "liveServer.settings.root": "/"
+    , "liveServer.settings.donotVerifyUrls": true
+    , "liveServer.settings.ignoreFiles": [
+        "**/node_modules/**",
+        "**/dist/**",
+        "**/build/**"
+    ]
+}
