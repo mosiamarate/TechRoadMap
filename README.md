@@ -4,7 +4,7 @@
 
 ## 🌐 Live Preview
 
-*Coming Soon - The project is still under construction.*
+*https://tech-road-map.vercel.app*
 
 ## 📁 Project Structure
 
