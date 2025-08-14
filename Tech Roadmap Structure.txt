@@ -1,50 +1,52 @@
 Tech Roadmap Structure: 
 
 TechRoadMap/
-├── index.html
-├── README.md
-├── about.html
-├── languages.html
-├── Tech Roadmap Structure.txt
+├── index.html                  # Homepage
+├── README.md                   # Project documentation
+├── about.html                  # About the platform
+├── languages.html              # Programming & tech stacks overview
+├── language.js                 # JavaScript functionality for languages
+├── techroadmap.js              # JavaScript functionality for roadmaps
+├── Tech Roadmap Structure.txt  # Project planning notes
 ├── assets/
 │   ├── style/
-│   │   ├── index.css
-│   │   ├── shared.css
-│   └── Mosia's image.png
+│   │   ├── index.css           # Homepage styles
+│   │   └── shared.css          # Shared styles across pages
+│   └── Mosia's image.png       # Profile or branding image
 ├── roadmaps/
-│   ├── backend-dev.html
-│   ├── blockchain.html
-│   ├── cloud-engineer.html
-│   ├── cybersecurity.html
-│   ├── data-analyst.html
-│   ├── devops.html
-│   ├── frontend-dev.html
-│   ├── fullstack-dev.html
-│   ├── game-dev.html
-│   ├── ml-engineer.html
-│   └── network-engineer.html
-├── languages/
-│   ├── javascript.html
-│   ├── python.html
-│   ├── java.html
-│   ├── react.html
-│   ├── angular.html
-│   ├── django.html
-│   ├── nodejs.html
-│   ├── docker.html
-│   ├── kubernetes.html
-│   ├── aws.html
-│   ├── azure.html
-│   ├── gcp.html
-│   ├── html-css.html
-│   ├── ruby-on-rails.html
-│   ├── flask.html
-│   ├── swift.html
-│   ├── php.html
-│   ├── typescript.html
-│   ├── csharp.html
-│   ├── go.html
-│   ├── rust.html
-│   ├── flutter.html
-│   ├── vuejs.html
-│   └── laravel.html
+│   ├── backend-dev.html        # Backend Developer Roadmap
+│   ├── blockchain.html         # Blockchain Developer Roadmap
+│   ├── cloud-engineer.html     # Cloud Engineer Roadmap
+│   ├── cybersecurity.html      # Cybersecurity Specialist Roadmap
+│   ├── data-analyst.html       # Data Analyst Roadmap
+│   ├── devops.html             # DevOps Engineer Roadmap
+│   ├── frontend-dev.html       # Frontend Developer Roadmap
+│   ├── fullstack-dev.html      # Fullstack Developer Roadmap
+│   ├── game-dev.html           # Game Developer Roadmap
+│   ├── ml-engineer.html        # Machine Learning Engineer Roadmap
+│   └── network-engineer.html   # Network Engineer Roadmap
+└── languages/
+    ├── javascript.html         # JavaScript Guide
+    ├── python.html             # Python Guide
+    ├── java.html               # Java Guide
+    ├── react.html              # React.js Guide
+    ├── angular.html            # Angular Guide
+    ├── django.html             # Django Guide
+    ├── nodejs.html             # Node.js Guide
+    ├── docker.html             # Docker Guide
+    ├── kubernetes.html         # Kubernetes Guide
+    ├── aws.html                # AWS Guide
+    ├── azure.html              # Azure Guide
+    ├── gcp.html                # Google Cloud Platform Guide
+    ├── html-css.html           # HTML & CSS Basics
+    ├── ruby-on-rails.html      # Ruby on Rails Guide
+    ├── flask.html              # Flask Guide
+    ├── swift.html              # Swift Guide
+    ├── php.html                # PHP Guide
+    ├── typescript.html         # TypeScript Guide
+    ├── csharp.html             # C# Guide
+    ├── go.html                 # Go (Golang) Guide
+    ├── rust.html               # Rust Guide
+    ├── flutter.html            # Flutter Guide
+    ├── vuejs.html              # Vue.js Guide
+    └── laravel.html            # Laravel Guide
