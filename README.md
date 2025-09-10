@@ -20,6 +20,7 @@ TechRoadMap/
 ├── assets/
 │   ├── style/
 │   │   ├── index.css           # Homepage styles
+│   │   ├── about.css           # aAbout page styles
 │   │   └── shared.css          # Shared styles across pages
 │   └── Mosia's image.png       # Profile or branding image
 ├── roadmaps/
