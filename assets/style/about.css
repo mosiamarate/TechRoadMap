@@ -1,0 +1,260 @@
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.creator-card {
+    background: rgba(59, 130, 246, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+}
+.contact-card {
+    background: rgba(16, 185, 129, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+}
+a:hover {
+    color: #60a5fa;
+    transition: 0.3s;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to bottom right, #111827, #1f2937, #000);
+    color: #fff;
+    min-height: 100vh;
+}
+
+.main-container {
+    max-width: 64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+}
+
+.main-container > * + * {
+    margin-top: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+}
+
+header p {
+    color: #9ca3af;
+}
+
+header nav {
+    margin-top: 1rem;
+}
+
+header nav a {
+    color: #60a5fa;
+}
+
+header nav a:hover {
+    text-decoration: none;
+    color: #93c5fd;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+header nav span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.mission {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mission:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mission h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.mission-text-highlight {
+    font-weight: 600;
+    color: #93c5fd;
+}
+
+.creator-card{
+    background: rgba(55, 88, 235, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.creator-card h2 {
+    color: #93c5fd;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-decoration: uppercase;
+    margin-bottom: 1rem;
+}
+
+.creator-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .creator-content {
+        flex-direction: row;
+    }
+}
+
+.creator-content img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(96, 165, 250, 0.3);
+}
+
+.creator-content h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #93c5fd;
+}
+
+.creator-content p {
+    margin-top: 0.5rem;
+    color: #d1d5db;
+}
+
+.contact-card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    background: rgba(60, 184, 142, 0.11);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.contact-card h2 {
+    color: #6ee7b7;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact-card p, .contact-card ul {
+    color: #d1d5db;
+}
+
+.contact-card ul {
+    margin-top: 1rem;
+}
+
+.contact-card ul > * + * {
+    margin-top: 0.5rem;
+}
+
+.contact-card li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-card li i {
+    margin-right: 0.75rem;
+    color: #34d399;
+}
+
+.contact-card a:hover {
+    color: #34d399;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.social-links > * + * {
+    margin-left: 1rem;
+}
+
+.social-links a {
+    color: #d1d5db;
+}
+
+.social-links a:hover {
+    color: #34d399;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    transition: color 0.3s;
+}
+
+.back-link-container {
+    text-align: center;
+    margin-top: 1rem;
+}
+.back-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.back-link:hover {
+    color: #93c5fd;
+    text-decoration: none;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: #6b7280;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 2.5rem;
+    border-top: 1px solid #1f2937;
+}

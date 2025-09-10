@@ -1,3 +1,4 @@
+/* Glass Card Styling */
 .glass-card {
     background: rgba(255, 255, 255, 0.05);
     -webkit-backdrop-filter: blur(12px);
@@ -5,16 +6,20 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Completed Card Styling */
 .completed {
     border: 2px solid limegreen;
 }
 
+/* Hover Effects for Links */
 a:hover {
     color: #60a5fa;
     transition: 0.3s;
 }
 
-input[type="text"], select {
+/* Input and Select Styling */
+input[type="text"],
+select {
     background-color: rgba(255, 255, 255, 0.05);
     color: white;
     border: 1px solid rgba(255, 255, 255, 0.05);
@@ -26,11 +31,13 @@ input[type="text"]::placeholder {
     color: #bbb;
 }
 
-input[type="text"]:focus, select:focus {
+input[type="text"]:focus,
+select:focus {
     border-color: #60a5fa;
     box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
 }
 
+/* Custom Select Dropdown Styling */
 .filterselect {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -52,8 +59,3 @@ input[type="text"]:focus, select:focus {
     border-color: #60a5fa;
     box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
 }
-
-/* Index page specific styles */
-body {
-    background: linear-gradient(to bottom right, #111827, #1f2937, #000000);
-  }

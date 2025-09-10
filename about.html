@@ -2,79 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- Header Details -->
+    <!-- Meta tags for character set, viewport, and SEO -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Learn more about the creators of TechRoadMap and their mission.">
     <meta name="author" content="Mosia Marate">
+    
+    <!-- Page Title -->
     <title>About Us - TechRoadMap</title>
+    
+    <!-- External Libraries & Stylesheets -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <style>
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .creator-card {
-            background: rgba(59, 130, 246, 0.1);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(96, 165, 250, 0.2);
-        }
-        .contact-card {
-            background: rgba(16, 185, 129, 0.1);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(16, 185, 129, 0.2);
-        }
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/about.css">
 </head>
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter">
-
-    <div class="max-w-5xl mx-auto p-6 space-y-8">
-
-        <!-- About Header -->
-        <header class="text-center">
-            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-2">About TechRoadMap</h1>
-            <p class="text-gray-400">Learn more about the creators of TechRoadMap and their mission</p>
-            <nav class="mt-4">
-            <a href="index.html" class="text-blue-400 hover:underline">Home</a>
+<body class="body">
+    <!-- Main content container -->
+    <div class="main-container">
+        
+        <!-- Page Header -->
+        <header class="header">
+            <h1>About TechRoadMap</h1>
+            <p>Learn more about the creators of TechRoadMap and their mission</p>
+            <!-- Main Navigation -->
+            <nav class="nav">
+                <a href="index.html">Home</a>
                 <span class="mx-2">|</span>
-                <a href="about.html" class="text-blue-400 hover:underline">About Us</a>
+                <a href="about.html">About Us</a>
                 <span class="mx-2">|</span>
-                <a href="languages.html" class="text-blue-400 hover:underline">Languages</a>
+                <a href="languages.html">Languages</a>
             </nav>
         </header>
 
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-bold mb-4">Our Mission</h2>
-            <p>
-                Welcome to <span class="font-semibold text-blue-300">TechRoadMap</span>! Our mission is to provide a comprehensive guide for individuals looking to navigate the ever-evolving world of technology. Whether you're a beginner or an experienced professional, we aim to equip you with the knowledge and tools you need to succeed in your tech journey.
-            </p>
+        <!-- Mission Section -->
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>Welcome to <span class="font-semibold text-blue-300">TechRoadMap</span>! Our mission is to provide a comprehensive guide for individuals looking to navigate the ever-evolving world of technology. Whether you're a beginner or an experienced professional, we aim to equip you with the knowledge and tools you need to succeed in your tech journey.</p>
         </section>
 
-        <section class="creator-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-bold mb-4 text-blue-300">Meet the Creator</h2>
-            <div class="flex flex-col md:flex-row items-center gap-6">
-                <img src="assets/Mosia's Image.png" alt="Mosia Marate" class="w-40 h-40 object-cover rounded-lg shadow-md border-2 border-blue-400/30">
+        <!-- Creator Profile Section -->
+        <section class="creator-card">
+            <h2>Meet the Creator</h2>
+            <div class="creator-content">
+                <!-- It's a good practice to avoid spaces and special characters in image file names. Consider renaming "Mosia's Image.png" to "mosia-marate.png". -->
+                <img src="assets/Mosia's Image.png" alt="Mosia Marate">
                 <div>
-                    <h3 class="text-2xl font-semibold text-blue-300">Mosia Marate</h3>
-                    <p class="mt-2 text-gray-300">
-                        Hi, I’m Mosia Marate, the mind behind TechRoadMap. I’m deeply passionate about technology, coding, and empowering others to grow in the tech space. As a dedicated IT and Computer Networking student with hands-on experience in web development and digital strategy, I created this platform to guide and inspire others on their journey into tech—just as I continue growing in mine
-                    </p>
+                    <h3>Mosia Marate</h3>
+                    <p>Hi, I’m Mosia Marate, the mind behind TechRoadMap. I’m deeply passionate about technology, coding, and empowering others to grow in the tech space. As a dedicated IT and Computer Networking student with hands-on experience in web development and digital strategy, I created this platform to guide and inspire others on their journey into tech—just as I continue growing in mine.</p>
                 </div>
             </div>
         </section>
 
-        <section class="contact-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-bold mb-4 text-emerald-300">Connect with Me</h2>
-            <p class="text-gray-300">If you have any questions, suggestions, or just want to connect, feel free to reach out!</p>
-            <ul class="mt-4 space-y-2 text-gray-300">
+        <!-- Contact Information Section -->
+        <section class="contact-card">
+            <h2>Connect with Me</h2>
+            <p>If you have any questions, suggestions, or just want to connect, feel free to reach out!</p>
+            <!-- Contact List -->
+            <ul>
                 <li class="flex items-center">
                     <i class="fas fa-envelope mr-3 text-emerald-400"></i>
                     <a href="mailto:mosiathedeveloper@gmail.com" class="hover:text-emerald-400">mosiathedeveloper@gmail.com</a>
@@ -88,23 +74,26 @@
                     <a href="tel:+27814702140" class="hover:text-emerald-400">+27 81 470 2140</a>
                 </li>
             </ul>
-            <div class="mt-4 flex space-x-4">
-                <a href="https://github.com/mosiamarate" target="_blank" rel="noopener" class="text-gray-300 hover:text-emerald-400" title="Mosia Marate on GitHub">
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://github.com/mosiamarate" target="_blank" rel="noopener noreferrer" title="Mosia Marate on GitHub">
                     <i class="fab fa-github text-2xl"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/mosiamarate" target="_blank" rel="noopener" class="text-gray-300 hover:text-emerald-400" title="Mosia Marate on LinkedIn">
+                <a href="https://www.linkedin.com/in/mosiamarate" target="_blank" rel="noopener noreferrer" title="Mosia Marate on LinkedIn">
                     <i class="fab fa-linkedin text-2xl"></i>
                 </a>
             </div>
         </section>
 
-        <div class="text-center mt-6">
-            <a href="../index.html" class="text-blue-400 hover:underline">← Back to Roadmaps</a>
+        <!-- Back to Home Link -->
+        <div class="back-link-container">
+            <a href="index.html" class="back-link">← Back to Roadmaps</a>
         </div>
 
     </div>
 
-    <footer class="text-center text-gray-500 py-4 mt-10 border-t border-gray-800">
+    <!-- Page Footer -->
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>
