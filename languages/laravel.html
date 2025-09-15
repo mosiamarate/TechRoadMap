@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <!-- Header Details --> 
@@ -12,36 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🟥 Laravel</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🟥 Laravel</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Laravel is a popular open-source PHP framework designed for building robust and scalable web applications. It offers elegant syntax, powerful tools, and a vibrant ecosystem, making backend development efficient and enjoyable.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Elegant and expressive syntax</li>
                 <li>Built-in authentication and authorization</li>
                 <li>Powerful ORM (Eloquent) for database management</li>
@@ -52,9 +43,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Backend Developer</li>
                 <li>Full Stack Developer</li>
                 <li>Web Application Developer</li>
@@ -63,53 +54,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://laracasts.com/series/laravel-8-from-scratch" target="_blank" rel="noopener" class="hover:blue-400">Laracasts Laravel Series</a></li>
-                <li><a href="https://www.udemy.com/course/php-with-laravel-for-beginners-become-a-master-in-laravel/" target="_blank" rel="noopener" class="hover:blue-400">Udemy Laravel Certification</a></li>
-                <li><a href="https://www.coursera.org/learn/web-app-development-with-laravel" target="_blank" rel="noopener" class="hover:blue-400">Coursera Laravel Course</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://laracasts.com/series/laravel-8-from-scratch" target="_blank" rel="noopener noreferrer">Laracasts Laravel Series</a></li>
+                <li><a href="https://www.udemy.com/course/php-with-laravel-for-beginners-become-a-master-in-laravel/" target="_blank" rel="noopener noreferrer">Udemy Laravel Certification</a></li>
+                <li><a href="https://www.coursera.org/learn/web-app-development-with-laravel" target="_blank" rel="noopener noreferrer">Coursera Laravel Course</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://laracasts.com/" target="_blank" rel="noopener" class="hover:blue-400">Laracasts</a></li>
-                <li><a href="https://www.udemy.com/topic/laravel/" target="_blank" rel="noopener" class="hover:blue-400">Laravel Courses (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/courses?query=laravel" target="_blank" rel="noopener" class="hover:blue-400">Laravel Courses (Coursera)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://laracasts.com/" target="_blank" rel="noopener noreferrer">Laracasts</a></li>
+                <li><a href="https://www.udemy.com/topic/laravel/" target="_blank" rel="noopener noreferrer">Laravel Courses (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/courses?query=laravel" target="_blank" rel="noopener noreferrer">Laravel Courses (Coursera)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/LaravelDaily" target="_blank" rel="noopener" class="hover:blue-400">Laravel Daily</a></li>
-                <li><a href="https://www.youtube.com/c/codecourse" target="_blank" rel="noopener" class="hover:blue-400">Codecourse</a></li>
-                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener" class="hover:blue-400">Academind</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/LaravelDaily" target="_blank" rel="noopener noreferrer">Laravel Daily</a></li>
+                <li><a href="https://www.youtube.com/c/codecourse" target="_blank" rel="noopener noreferrer">Codecourse</a></li>
+                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener noreferrer">Academind</a></li>
             </ul>
         </section>
         
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📰 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://laravel.com/docs" target="_blank" rel="noopener" class="hover:blue-400">Official Laravel Documentation</a></li>
-                <li><a href="https://laravel-news.com/" target="_blank" rel="noopener" class="hover:blue-400">Laravel News</a></li>
-                <li><a href="https://www.freecodecamp.org/news/tag/laravel/" target="_blank" rel="noopener" class="hover:blue-400">FreeCodeCamp Laravel Articles</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://laravel.com/docs" target="_blank" rel="noopener noreferrer">Official Laravel Documentation</a></li>
+                <li><a href="https://laravel-news.com/" target="_blank" rel="noopener noreferrer">Laravel News</a></li>
+                <li><a href="https://www.freecodecamp.org/news/tag/laravel/" target="_blank" rel="noopener noreferrer">FreeCodeCamp Laravel Articles</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

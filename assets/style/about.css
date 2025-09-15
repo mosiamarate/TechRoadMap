@@ -1,32 +1,13 @@
-.glass-card {
-    background: rgba(255, 255, 255, 0.05);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.creator-card {
-    background: rgba(59, 130, 246, 0.1);
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(96, 165, 250, 0.2);
-}
 .contact-card {
     background: rgba(16, 185, 129, 0.1);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 1px solid rgba(16, 185, 129, 0.2);
 }
-a:hover {
-    color: #60a5fa;
-    transition: 0.3s;
-}
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
 
 body {
     font-family: 'Inter', sans-serif;
-    background-image: linear-gradient(to bottom right, #111827, #1f2937, #000);
-    color: #fff;
-    min-height: 100vh;
 }
 
 .main-container {
@@ -38,49 +19,6 @@ body {
 
 .main-container > * + * {
     margin-top: 2rem;
-}
-
-header {
-    text-align: center;
-}
-
-header h1 {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-    font-weight: 800;
-    letter-spacing: -0.025em;
-    margin-bottom: 0.5rem;
-}
-
-@media (min-width: 768px) {
-    header h1 {
-        font-size: 3rem;
-        line-height: 1;
-    }
-}
-
-header p {
-    color: #9ca3af;
-}
-
-header nav {
-    margin-top: 1rem;
-}
-
-header nav a {
-    color: #60a5fa;
-}
-
-header nav a:hover {
-    text-decoration: none;
-    color: #93c5fd;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-header nav span {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
 }
 
 .mission {
@@ -112,6 +50,13 @@ header nav span {
 }
 
 .creator-card{
+    background: rgba(59, 130, 246, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+.creator-card {
     background: rgba(55, 88, 235, 0.05);
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
@@ -227,34 +172,4 @@ header nav span {
 .social-links i {
     font-size: 1.5rem;
     line-height: 2rem;
-    transition: color 0.3s;
-}
-
-.back-link-container {
-    text-align: center;
-    margin-top: 1rem;
-}
-.back-link {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: 500;
-}
-
-.back-link:hover {
-    color: #93c5fd;
-    text-decoration: none;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-footer {
-    text-align: center;
-    color: #6b7280;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 2.5rem;
-    border-top: 1px solid #1f2937;
 }

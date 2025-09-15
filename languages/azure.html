@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <!-- Header Details -->
     <meta charset="UTF-8">
@@ -12,36 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🟦 Microsoft Azure</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🟦 Microsoft Azure</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Microsoft Azure is a leading cloud computing platform offering a wide range of services including computing, analytics, storage, and networking. It enables organizations to build, deploy, and manage applications through Microsoft-managed data centers worldwide.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Scalable virtual machines and app services</li>
                 <li>Comprehensive DevOps and CI/CD tools</li>
                 <li>AI, machine learning, and analytics services</li>
@@ -51,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Cloud Solutions Architect</li>
                 <li>Azure DevOps Engineer</li>
                 <li>Cloud Administrator</li>
@@ -63,53 +54,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Certified: Azure Fundamentals (AZ-900)</a></li>
-                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-administrator/" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Certified: Azure Administrator Associate</a></li>
-                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-developer/" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Certified: Azure Developer Associate</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-fundamentals/" target="_blank" rel="noopener noreferrer">Microsoft Certified: Azure Fundamentals (AZ-900)</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-administrator/" target="_blank" rel="noopener noreferrer">Microsoft Certified: Azure Administrator Associate</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/certifications/azure-developer/" target="_blank" rel="noopener noreferrer">Microsoft Certified: Azure Developer Associate</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udemy.com/course/azure-fundamentals/" target="_blank" rel="noopener" class="hover:blue-400">Azure Fundamentals (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/learn/microsoft-azure-fundamentals" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Azure Fundamentals (Coursera)</a></li>
-                <li><a href="https://www.pluralsight.com/paths/microsoft-azure-developer" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Azure Developer Path (Pluralsight)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udemy.com/course/azure-fundamentals/" target="_blank" rel="noopener noreferrer">Azure Fundamentals (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/learn/microsoft-azure-fundamentals" target="_blank" rel="noopener noreferrer">Microsoft Azure Fundamentals (Coursera)</a></li>
+                <li><a href="https://www.pluralsight.com/paths/microsoft-azure-developer" target="_blank" rel="noopener noreferrer">Microsoft Azure Developer Path (Pluralsight)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/AzureAcademy" target="_blank" rel="noopener" class="hover:blue-400">Azure Academy</a></li>
-                <li><a href="https://www.youtube.com/c/MicrosoftAzure" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Azure</a></li>
-                <li><a href="https://www.youtube.com/c/JohnSavill" target="_blank" rel="noopener" class="hover:blue-400">John Savill's Technical Training</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/AzureAcademy" target="_blank" rel="noopener noreferrer">Azure Academy</a></li>
+                <li><a href="https://www.youtube.com/c/MicrosoftAzure" target="_blank" rel="noopener noreferrer">Microsoft Azure</a></li>
+                <li><a href="https://www.youtube.com/c/JohnSavill" target="_blank" rel="noopener noreferrer">John Savill's Technical Training</a></li>
             </ul>
         </section>
         
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📰 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://learn.microsoft.com/en-us/azure/" target="_blank" rel="noopener" class="hover:blue-400">Microsoft Azure Documentation</a></li>
-                <li><a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/" target="_blank" rel="noopener" class="hover:blue-400">What is Azure?</a></li>
-                <li><a href="https://www.freecodecamp.org/news/what-is-microsoft-azure/" target="_blank" rel="noopener" class="hover:blue-400">FreeCodeCamp: What is Microsoft Azure?</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://learn.microsoft.com/en-us/azure/" target="_blank" rel="noopener noreferrer">Microsoft Azure Documentation</a></li>
+                <li><a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-azure/" target="_blank" rel="noopener noreferrer">What is Azure?</a></li>
+                <li><a href="https://www.freecodecamp.org/news/what-is-microsoft-azure/" target="_blank" rel="noopener noreferrer">FreeCodeCamp: What is Microsoft Azure?</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

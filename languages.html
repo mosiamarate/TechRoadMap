@@ -14,7 +14,6 @@
     <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Custom Stylesheets -->
-    <link rel="stylesheet" href="assets/style/index.css">
     <link rel="stylesheet" href="assets/style/shared.css">
 </head>
 <body class="body">
@@ -47,6 +46,9 @@
             </select>
         </div>
 
+        <!-- Completion Counter -->
+        <div id="completionCounter" class="text-right text-gray-400 mb-4"></div>
+
         <!-- Grid for displaying languages and frameworks -->
         <div id="languagesGrid" class="roadmap-grid"></div>
 
@@ -58,7 +60,7 @@
 
         <!-- Guide Section on how to use the page -->
         <section class="guide-section">
-            <legend>How to Use:</legend>
+            <h2>How to Use:</h2>
             <p>Click on a language/framework card to mark it as completed. Filter or search for specific roadmaps by category or keywords.</p>
         </section>
 
@@ -74,7 +76,8 @@
         </footer>
     </div>
 
-    <!-- JavaScript file for dynamic content -->
+    <!-- JavaScript files for dynamic content -->
+    <script src="renderer.js"></script>
     <script src="languages.js"></script>
 </body>
 </html>

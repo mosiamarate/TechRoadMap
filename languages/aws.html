@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <!-- Header Details -->
     <meta charset="UTF-8">
@@ -12,39 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        /* Glass Card Styling */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        /* Hover Effects for links */
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6"></body>
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🟧 AWS (Amazon Web Services)</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🟧 AWS (Amazon Web Services)</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Amazon Web Services (AWS) is the world’s most comprehensive and widely adopted cloud platform, offering over 200 fully featured services from data centers globally. AWS enables organizations to build, deploy, and scale applications with high flexibility, security, and cost-effectiveness.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>On-demand compute, storage, and networking</li>
                 <li>Global infrastructure and scalability</li>
                 <li>Comprehensive security and compliance</li>
@@ -54,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>AWS Cloud Engineer</li>
                 <li>DevOps Engineer</li>
                 <li>Cloud Solutions Architect</li>
@@ -67,53 +55,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified Cloud Practitioner</a></li>
-                <li><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified Solutions Architect – Associate</a></li>
-                <li><a href="https://aws.amazon.com/certification/certified-developer-associate/" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified Developer – Associate</a></li>
-                <li><a href="https://aws.amazon.com/certification/certified-devops-engineer-professional/" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified DevOps Engineer – Professional</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://aws.amazon.com/certification/certified-cloud-practitioner/" target="_blank" rel="noopener noreferrer">AWS Certified Cloud Practitioner</a></li>
+                <li><a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer">AWS Certified Solutions Architect – Associate</a></li>
+                <li><a href="https://aws.amazon.com/certification/certified-developer-associate/" target="_blank" rel="noopener noreferrer">AWS Certified Developer – Associate</a></li>
+                <li><a href="https://aws.amazon.com/certification/certified-devops-engineer-professional/" target="_blank" rel="noopener noreferrer">AWS Certified DevOps Engineer – Professional</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate/" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified Solutions Architect - Associate 2024 (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/specializations/aws-fundamentals" target="_blank" rel="noopener" class="hover:blue-400">AWS Fundamentals Specialization (Coursera)</a></li>
-                <li><a href="https://www.pluralsight.com/paths/aws-certified-cloud-practitioner" target="_blank" rel="noopener" class="hover:blue-400">AWS Certified Cloud Practitioner (Pluralsight)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udemy.com/course/aws-certified-solutions-architect-associate/" target="_blank" rel="noopener noreferrer">AWS Certified Solutions Architect - Associate 2024 (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/specializations/aws-fundamentals" target="_blank" rel="noopener noreferrer">AWS Fundamentals Specialization (Coursera)</a></li>
+                <li><a href="https://www.pluralsight.com/paths/aws-certified-cloud-practitioner" target="_blank" rel="noopener noreferrer">AWS Certified Cloud Practitioner (Pluralsight)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/AmazonWebServices" target="_blank" rel="noopener" class="hover:blue-400">AWS Official Channel</a></li>
-                <li><a href="https://www.youtube.com/c/Freecodecamp" target="_blank" rel="noopener" class="hover:blue-400">freeCodeCamp.org</a></li>
-                <li><a href="https://www.youtube.com/c/TechWorldwithNana" target="_blank" rel="noopener" class="hover:blue-400">TechWorld with Nana</a></li>
-                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener" class="hover:blue-400">Academind</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/AmazonWebServices" target="_blank" rel="noopener noreferrer">AWS Official Channel</a></li>
+                <li><a href="https://www.youtube.com/c/Freecodecamp" target="_blank" rel="noopener noreferrer">freeCodeCamp.org</a></li>
+                <li><a href="https://www.youtube.com/c/TechWorldwithNana" target="_blank" rel="noopener noreferrer">TechWorld with Nana</a></li>
+                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener noreferrer">Academind</a></li>
             </ul>
         </section>
 
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📝 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://aws.amazon.com/what-is-aws/" target="_blank" rel="noopener" class="hover:blue-400">What is AWS?</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://aws.amazon.com/what-is-aws/" target="_blank" rel="noopener noreferrer">What is AWS?</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

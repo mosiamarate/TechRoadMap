@@ -25,52 +25,6 @@ const languages = [
             { id: "laravel", title: "Laravel 🔴", category: "frameworks" }
         ];
 
-        const grid = document.getElementById("languagesGrid");
-        const searchInput = document.getElementById("searchInput");
-        const filterSelect = document.getElementById("filterSelect");
-
-        function renderLanguages() {
-            const searchText = searchInput.value.toLowerCase();
-            const selectedCategory = filterSelect.value;
-            grid.innerHTML = "";
-
-            languages
-                .filter(l =>
-                    (selectedCategory === "all" || l.category === selectedCategory) &&
-                    l.title.toLowerCase().includes(searchText)
-                )
-                .forEach(l => {
-                    const completed = localStorage.getItem(l.id) === "true";
-                    const card = document.createElement("div");
-                    card.className = `glass-card p-4 rounded-xl cursor-pointer hover:bg-white/10 transition duration-300 ${completed ? "completed" : ""}`;
-                    card.onclick = () => {
-                        const confirmed = confirm(`Mark "${l.title}" as completed?`);
-                        if (confirmed) {
-                            localStorage.setItem(l.id, true);
-                            renderLanguages();
-                        }
-                    };
-                    card.innerHTML = `
-                        <h2 class="text-xl font-bold mb-2">${l.title}</h2>
-                        <a href="languages/${l.id}.html" class="text-blue-400">Learn More</a>
-                    `;
-                    grid.appendChild(card);
-                });
-        }
-
-        searchInput.addEventListener("input", renderLanguages);
-        filterSelect.addEventListener("change", renderLanguages);
-
-        renderLanguages();
-        document.addEventListener("DOMContentLoaded", () => {
-            renderLanguages();
-            const completedLanguages = languages.filter(l => localStorage.getItem(l.id) === "true");
-            completedLanguages.forEach(l => {
-                const cards = document.querySelectorAll(".glass-card");
-                cards.forEach(card => {
-                    if (card.querySelector("h2") && card.querySelector("h2").innerText === l.title) {
-                        card.classList.add("completed");
-                    }
-                });
-            });
-        });
+document.addEventListener('DOMContentLoaded', () => {
+    setupPage(languages, 'languagesGrid', 'searchInput', 'filterSelect', 'completionCounter', 'language');
+});

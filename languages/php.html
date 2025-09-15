@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <!-- Header Details --> 
@@ -12,36 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🟦 PHP</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🟦 PHP</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>PHP is a popular server-side scripting language designed for web development. It powers millions of websites and is widely used for building dynamic and interactive web applications.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Server-side scripting for dynamic web pages</li>
                 <li>Easy integration with databases (MySQL, PostgreSQL, etc.)</li>
                 <li>Large ecosystem of frameworks (Laravel, Symfony, CodeIgniter)</li>
@@ -50,9 +41,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Backend Developer</li>
                 <li>Full Stack Developer</li>
                 <li>Web Application Developer</li>
@@ -61,53 +52,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.w3schools.com/cert/cert_php.asp" target="_blank" rel="noopener" class="hover:blue-400">W3Schools PHP Certification</a></li>
-                <li><a href="https://www.udemy.com/topic/php/" target="_blank" rel="noopener" class="hover:blue-400">Udemy PHP Courses</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-php" target="_blank" rel="noopener" class="hover:blue-400">Codecademy PHP Certification</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://www.w3schools.com/cert/cert_php.asp" target="_blank" rel="noopener noreferrer">W3Schools PHP Certification</a></li>
+                <li><a href="https://www.udemy.com/topic/php/" target="_blank" rel="noopener noreferrer">Udemy PHP Courses</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-php" target="_blank" rel="noopener noreferrer">Codecademy PHP Certification</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udemy.com/course/php-for-beginners/" target="_blank" rel="noopener" class="hover:blue-400">PHP for Beginners (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/learn/web-app" target="_blank" rel="noopener" class="hover:blue-400">Building Web Applications in PHP (Coursera)</a></li>
-                <li><a href="https://www.pluralsight.com/courses/php-getting-started" target="_blank" rel="noopener" class="hover:blue-400">PHP: Getting Started (Pluralsight)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udemy.com/course/php-for-beginners/" target="_blank" rel="noopener noreferrer">PHP for Beginners (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/learn/web-app" target="_blank" rel="noopener noreferrer">Building Web Applications in PHP (Coursera)</a></li>
+                <li><a href="https://www.pluralsight.com/courses/php-getting-started" target="_blank" rel="noopener noreferrer">PHP: Getting Started (Pluralsight)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener" class="hover:blue-400">Traversy Media</a></li>
-                <li><a href="https://www.youtube.com/c/Codecourse" target="_blank" rel="noopener" class="hover:blue-400">Codecourse</a></li>
-                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener" class="hover:blue-400">The Net Ninja</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener noreferrer">Traversy Media</a></li>
+                <li><a href="https://www.youtube.com/c/Codecourse" target="_blank" rel="noopener noreferrer">Codecourse</a></li>
+                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener noreferrer">The Net Ninja</a></li>
             </ul>
         </section>
         
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📰 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.php.net/manual/en/" target="_blank" rel="noopener" class="hover:blue-400">PHP Manual</a></li>
-                <li><a href="https://www.tutorialspoint.com/php/index.htm" target="_blank" rel="noopener" class="hover:blue-400">TutorialsPoint PHP Tutorial</a></li>
-                <li><a href="https://www.freecodecamp.org/news/php-tutorial/" target="_blank" rel="noopener" class="hover:blue-400">FreeCodeCamp PHP Tutorial</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://www.php.net/manual/en/" target="_blank" rel="noopener noreferrer">PHP Manual</a></li>
+                <li><a href="https://www.tutorialspoint.com/php/index.htm" target="_blank" rel="noopener noreferrer">TutorialsPoint PHP Tutorial</a></li>
+                <li><a href="https://www.freecodecamp.org/news/php-tutorial/" target="_blank" rel="noopener noreferrer">FreeCodeCamp PHP Tutorial</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

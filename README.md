@@ -16,6 +16,7 @@ TechRoadMap/
 ├── languages.html              # Programming & tech stacks overview
 ├── language.js                 # JavaScript functionality for languages
 ├── techroadmap.js              # JavaScript functionality for roadmaps
+├── renderer.js                 # JavaScript functionality for rendering content
 ├── Tech Roadmap Structure.txt  # Project planning notes
 ├── assets/
 │   ├── style/
@@ -34,7 +35,8 @@ TechRoadMap/
 │   ├── fullstack-dev.html      # Fullstack Developer Roadmap
 │   ├── game-dev.html           # Game Developer Roadmap
 │   ├── ml-engineer.html        # Machine Learning Engineer Roadmap
-│   └── network-engineer.html   # Network Engineer Roadmap
+│   ├── network-engineer.html   # Network Engineer Roadmap
+│   └── ux-ui-designer.html     # UX/UI Designer Roadmap
 └── languages/
     ├── javascript.html         # JavaScript Guide
     ├── python.html             # Python Guide

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <!-- Header Details -->
@@ -12,36 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🟦 Swift</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🟦 Swift</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Swift is a powerful and intuitive programming language developed by Apple for building apps for iOS, macOS, watchOS, and tvOS. It is designed to be easy to use, safe, and fast, making it a popular choice for modern app development on Apple platforms.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Modern syntax and safety features</li>
                 <li>Fast and efficient performance</li>
                 <li>Interoperability with Objective-C</li>
@@ -51,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>iOS Developer</li>
                 <li>macOS Application Developer</li>
                 <li>Mobile App Engineer</li>
@@ -62,53 +53,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://developer.apple.com/certification/" target="_blank" rel="noopener" class="hover:blue-400">Apple Developer Certification</a></li>
-                <li><a href="https://www.udemy.com/topic/swift/" target="_blank" rel="noopener" class="hover:blue-400">Udemy Swift Courses</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-swift" target="_blank" rel="noopener" class="hover:blue-400">Codecademy Swift Certification</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://developer.apple.com/certification/" target="_blank" rel="noopener noreferrer">Apple Developer Certification</a></li>
+                <li><a href="https://www.udemy.com/topic/swift/" target="_blank" rel="noopener noreferrer">Udemy Swift Courses</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-swift" target="_blank" rel="noopener noreferrer">Codecademy Swift Certification</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/" target="_blank" rel="noopener" class="hover:blue-400">iOS & Swift - The Complete iOS App Development Bootcamp (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/learn/swift-programming" target="_blank" rel="noopener" class="hover:blue-400">Swift 5 Programming (Coursera)</a></li>
-                <li><a href="https://www.edx.org/learn/swift" target="_blank" rel="noopener" class="hover:blue-400">Swift Courses (edX)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udemy.com/course/ios-13-app-development-bootcamp/" target="_blank" rel="noopener noreferrer">iOS & Swift - The Complete iOS App Development Bootcamp (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/learn/swift-programming" target="_blank" rel="noopener noreferrer">Swift 5 Programming (Coursera)</a></li>
+                <li><a href="https://www.edx.org/learn/swift" target="_blank" rel="noopener noreferrer">Swift Courses (edX)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/CodeWithChris" target="_blank" rel="noopener" class="hover:blue-400">CodeWithChris</a></li>
-                <li><a href="https://www.youtube.com/c/SeanAllen" target="_blank" rel="noopener" class="hover:blue-400">Sean Allen</a></li>
-                <li><a href="https://www.youtube.com/c/LetCreate" target="_blank" rel="noopener" class="hover:blue-400">Let’s Build That App</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/CodeWithChris" target="_blank" rel="noopener noreferrer">CodeWithChris</a></li>
+                <li><a href="https://www.youtube.com/c/SeanAllen" target="_blank" rel="noopener noreferrer">Sean Allen</a></li>
+                <li><a href="https://www.youtube.com/c/LetCreate" target="_blank" rel="noopener noreferrer">Let’s Build That App</a></li>
             </ul>
         </section>
         
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📰 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://developer.apple.com/swift/" target="_blank" rel="noopener" class="hover:blue-400">Apple Developer: Swift</a></li>
-                <li><a href="https://www.raywenderlich.com/ios/paths/learn" target="_blank" rel="noopener" class="hover:blue-400">Ray Wenderlich Swift Tutorials</a></li>
-                <li><a href="https://www.hackingwithswift.com/" target="_blank" rel="noopener" class="hover:blue-400">Hacking with Swift</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://developer.apple.com/swift/" target="_blank" rel="noopener noreferrer">Apple Developer: Swift</a></li>
+                <li><a href="https://www.raywenderlich.com/ios/paths/learn" target="_blank" rel="noopener noreferrer">Ray Wenderlich Swift Tutorials</a></li>
+                <li><a href="https://www.hackingwithswift.com/" target="_blank" rel="noopener noreferrer">Hacking with Swift</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

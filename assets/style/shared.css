@@ -15,6 +15,21 @@ a:hover {
     transition: 0.3s;
 }
 
+input[type="text"],
+select {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
+}
+
 input[type="text"]::placeholder {
     color: #bbb;
 }
@@ -33,6 +48,7 @@ input[type="text"]::placeholder {
     background-size: 1rem;
     border-radius: 0.5rem;
     outline: none;
+    width: 100%;
     transition: 0.3s;
 }
 
@@ -41,8 +57,13 @@ input[type="text"]::placeholder {
     box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
 }
 
+.filterselect option {
+    background: #1f2937;
+    color: white;
+}
+
 /* Body styles */
-body {
+.body, body {
     color: white;
     font-family: sans-serif;
     padding: 1.5rem;
@@ -120,11 +141,6 @@ body {
 }
 
 .search-filter input[type="text"] {
-    background-color: rgba(255, 255, 255, 0.05);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    outline: none;
-    transition: 0.3s;
     padding: 0.5rem;
     border-radius: 0.5rem;
     width: 100%;
@@ -134,11 +150,6 @@ body {
     .search-filter input[type="text"] {
         width: 50%;
     }
-}
-
-.search-filter input[type="text"]:focus {
-    border-color: #60a5fa;
-    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
 }
 
 .search-filter label {
@@ -152,20 +163,6 @@ body {
     white-space: nowrap;
     border-width: 0;
     
-}
-
-.search-filter .filterselect {
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    outline: none;
-    transition: 0.3s;
-}
-
-.filterselect:focus {
-    border-color: #60a5fa;
-    box-shadow: 0 0 0 2px rgba(96, 165, 250, 0.3);
 }
 
 @media (min-width: 768px) {
@@ -228,7 +225,7 @@ body {
 
 }
 
-.guide-section legend {
+.guide-section h2 {
     font-size: 1.125rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -243,6 +240,11 @@ body {
     padding: 1.5rem;
     border-radius: 0.75rem;
     text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
 }
 
 .stats-section h2 {
@@ -376,4 +378,3 @@ body {
 .footer strong {
     font-weight: 600;
 }
-

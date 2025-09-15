@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <!-- Header Details --> 
@@ -12,39 +12,27 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        /* Glass Card Styling */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        /* Hover Effects for links */
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">☸️ Kubernetes</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>☸️ Kubernetes</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Kubernetes is an open-source platform designed to automate deploying, scaling, and operating application containers. It helps manage clusters of hosts running containers, providing tools for application deployment, scaling, and operations, making it a cornerstone of modern cloud-native development.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Automated container orchestration</li>
                 <li>Self-healing and auto-scaling</li>
                 <li>Service discovery and load balancing</li>
@@ -54,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Kubernetes Administrator</li>
                 <li>DevOps Engineer</li>
                 <li>Cloud Engineer</li>
@@ -66,55 +54,55 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.cncf.io/certification/cka/" target="_blank" rel="noopener" class="hover:blue-400">Certified Kubernetes Administrator (CKA)</a></li>
-                <li><a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener" class="hover:blue-400">Certified Kubernetes Application Developer (CKAD)</a></li>
-                <li><a href="https://www.cncf.io/certification/cks/" target="_blank" rel="noopener" class="hover:blue-400">Certified Kubernetes Security Specialist (CKS)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://www.cncf.io/certification/cka/" target="_blank" rel="noopener noreferrer">Certified Kubernetes Administrator (CKA)</a></li>
+                <li><a href="https://www.cncf.io/certification/ckad/" target="_blank" rel="noopener noreferrer">Certified Kubernetes Application Developer (CKAD)</a></li>
+                <li><a href="https://www.cncf.io/certification/cks/" target="_blank" rel="noopener noreferrer">Certified Kubernetes Security Specialist (CKS)</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udemy.com/course/kubernetes-for-the-absolute-beginners-hands-on/" target="_blank" rel="noopener" class="hover:blue-400">Kubernetes for the Absolute Beginners - Hands-on (Udemy)</a></li>
-                <li><a href="https://www.coursera.org/learn/google-kubernetes-engine" target="_blank" rel="noopener" class="hover:blue-400">Architecting with Google Kubernetes Engine (Coursera)</a></li>
-                <li><a href="https://www.pluralsight.com/courses/kubernetes-getting-started" target="_blank" rel="noopener" class="hover:blue-400">Kubernetes: Getting Started (Pluralsight)</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udemy.com/course/kubernetes-for-the-absolute-beginners-hands-on/" target="_blank" rel="noopener noreferrer">Kubernetes for the Absolute Beginners - Hands-on (Udemy)</a></li>
+                <li><a href="https://www.coursera.org/learn/google-kubernetes-engine" target="_blank" rel="noopener noreferrer">Architecting with Google Kubernetes Engine (Coursera)</a></li>
+                <li><a href="https://www.pluralsight.com/courses/kubernetes-getting-started" target="_blank" rel="noopener noreferrer">Kubernetes: Getting Started (Pluralsight)</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/Kubernetesio" target="_blank" rel="noopener" class="hover:blue-400">Kubernetes Official Channel</a></li>
-                <li><a href="https://www.youtube.com/c/TechWorldwithNana" target="_blank" rel="noopener" class="hover:blue-400">TechWorld with Nana</a></li>
-                <li><a href="https://www.youtube.com/c/ACloudGuru" target="_blank" rel="noopener" class="hover:blue-400">A Cloud Guru</a></li>
-                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener" class="hover:blue-400">Academind</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/Kubernetesio" target="_blank" rel="noopener noreferrer">Kubernetes Official Channel</a></li>
+                <li><a href="https://www.youtube.com/c/TechWorldwithNana" target="_blank" rel="noopener noreferrer">TechWorld with Nana</a></li>
+                <li><a href="https://www.youtube.com/c/ACloudGuru" target="_blank" rel="noopener noreferrer">A Cloud Guru</a></li>
+                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener noreferrer">Academind</a></li>
             </ul>
         </section>
 
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📝 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/" target="_blank" rel="noopener" class="hover:blue-400">What is Kubernetes? - Official Docs</a></li>
-                <li><a href="https://www.freecodecamp.org/news/an-introduction-to-kubernetes/" target="_blank" rel="noopener" class="hover:blue-400">An Introduction to Kubernetes - freeCodeCamp</a></li>
-                <li><a href="https://www.digitalocean.com/community/tutorial_series/kubernetes-essentials" target="_blank" rel="noopener" class="hover:blue-400">Kubernetes Essentials - DigitalOcean</a></li>
-                <li><a href="https://www.tutorialspoint.com/kubernetes/index.htm" target="_blank" rel="noopener" class="hover:blue-400">Kubernetes Tutorial - TutorialsPoint</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/" target="_blank" rel="noopener noreferrer">What is Kubernetes? - Official Docs</a></li>
+                <li><a href="https://www.freecodecamp.org/news/an-introduction-to-kubernetes/" target="_blank" rel="noopener noreferrer">An Introduction to Kubernetes - freeCodeCamp</a></li>
+                <li><a href="https://www.digitalocean.com/community/tutorial_series/kubernetes-essentials" target="_blank" rel="noopener noreferrer">Kubernetes Essentials - DigitalOcean</a></li>
+                <li><a href="https://www.tutorialspoint.com/kubernetes/index.htm" target="_blank" rel="noopener noreferrer">Kubernetes Tutorial - TutorialsPoint</a></li>
             </ul>
         </section>
 
         <!-- Back to Languages Page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

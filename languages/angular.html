@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <!-- Header Details -->
     <meta charset="UTF-8">
@@ -12,40 +12,28 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        /* Glass Card Styling */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        /* Hover Effects for links */
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
 <!-- Main Body -->
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">🅰️ Angular</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>🅰️ Angular</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>Angular is a TypeScript-based open-source web application framework developed by Google. It is widely used for building dynamic, single-page web applications with a focus on scalability and maintainability.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Two-way data binding</li>
                 <li>Dependency injection</li>
                 <li>Component-based architecture</li>
@@ -54,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Frontend Developer</li>
                 <li>Angular Developer</li>
                 <li>Full Stack Developer</li>
@@ -65,53 +53,53 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://angular.io/start" target="_blank" rel="noopener" class="hover:blue-400">Official Angular Documentation</a></li>
-                <li><a href="https://www.udemy.com/course/the-complete-guide-to-angular-2/" target="_blank" rel="noopener" class="hover:blue-400">Udemy Angular - The Complete Guide</a></li>
-                <li><a href="https://www.coursera.org/specializations/angular" target="_blank" rel="noopener" class="hover:blue-400">Coursera Angular Specialization</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://angular.io/start" target="_blank" rel="noopener noreferrer">Official Angular Documentation</a></li>
+                <li><a href="https://www.udemy.com/course/the-complete-guide-to-angular-2/" target="_blank" rel="noopener noreferrer">Udemy Angular - The Complete Guide</a></li>
+                <li><a href="https://www.coursera.org/specializations/angular" target="_blank" rel="noopener noreferrer">Coursera Angular Specialization</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.pluralsight.com/courses/angular-getting-started" target="_blank" rel="noopener" class="hover:blue-400">Pluralsight Angular: Getting Started</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-angularjs" target="_blank" rel="noopener" class="hover:blue-400">Codecademy Learn Angular</a></li>
-                <li><a href="https://www.udacity.com/course/angular-nanodegree--nd032" target="_blank" rel="noopener" class="hover:blue-400">Udacity Angular Nanodegree</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.pluralsight.com/courses/angular-getting-started" target="_blank" rel="noopener noreferrer">Pluralsight Angular: Getting Started</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-angularjs" target="_blank" rel="noopener noreferrer">Codecademy Learn Angular</a></li>
+                <li><a href="https://www.udacity.com/course/angular-nanodegree--nd032" target="_blank" rel="noopener noreferrer">Udacity Angular Nanodegree</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener" class="hover:blue-400">Academind</a></li>
-                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener" class="hover:blue-400">Traversy Media</a></li>
-                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener" class="hover:blue-400">The Net Ninja</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener noreferrer">Academind</a></li>
+                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener noreferrer">Traversy Media</a></li>
+                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener noreferrer">The Net Ninja</a></li>
             </ul>
         </section>
 
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Further Reading</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://angular.io/guide" target="_blank" rel="noopener" class="hover:blue-400">Angular Guide</a></li>
-                <li><a href="https://www.freecodecamp.org/news/angular-tutorial-for-beginners/" target="_blank" rel="noopener" class="hover:blue-400">FreeCodeCamp Angular Tutorial</a></li>
-                <li><a href="https://www.smashingmagazine.com/2020/01/angular-best-practices/" target="_blank" rel="noopener" class="hover:blue-400">Smashing Magazine: Angular Best Practices</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://angular.io/guide" target="_blank" rel="noopener noreferrer">Angular Guide</a></li>
+                <li><a href="https://www.freecodecamp.org/news/angular-tutorial-for-beginners/" target="_blank" rel="noopener noreferrer">FreeCodeCamp Angular Tutorial</a></li>
+                <li><a href="https://www.smashingmagazine.com/2020/01/angular-best-practices/" target="_blank" rel="noopener noreferrer">Smashing Magazine: Angular Best Practices</a></li>
             </ul>
         </section>
 
         <!-- Back to langauges page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>

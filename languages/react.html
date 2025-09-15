@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <!-- Header Details --> 
@@ -12,40 +12,28 @@
     <!-- Importing Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Custom Styles -->
-    <style>
-        /* Glass Card Styling */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.05);
-            -webkit-backdrop-filter: blur(12px);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-
-        /* Hover Effects for links */
-        a:hover {
-            color: #60a5fa;
-            transition: 0.3s;
-        }
-    </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5c5e5e5e5e5e5e5e5e" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="../assets/style/shared.css">
 </head>
 
 <!-- Main Body -->
-<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white min-h-screen font-inter p-6">
-    <div class="max-w-6xl mx-auto space-y-8">
-        <h1 class="text-4xl font-bold mb-6 text-center">⚛️ React</h1>
+<body class="body">
+    <div class="container">
+        <header class="roadmap-header">
+            <h1>⚛️ React</h1>
+        </header>
 
         <!-- Overview Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📖 Overview</h2>
+        <section class="roadmap-section">
+            <h2 class="section-title">📖 Overview</h2>
             <p>React is a popular JavaScript library for building user interfaces, particularly for single-page applications. It allows developers to create reusable UI components and manage application state efficiently.</p>
         </section>
 
         <!-- Key Features Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🌟 Key Features</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">🌟 Key Features</h2>
+            <ul class="content-list">
                 <li>Component-based architecture</li>
                 <li>Virtual DOM for efficient rendering</li>
                 <li>Strong community and ecosystem</li>
@@ -54,9 +42,9 @@
         </section>
 
         <!-- Career Opportunities Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">💼 Career Opportunities</h2>
-            <ul class="list-disc list-inside text-gray-200">
+        <section class="roadmap-section">
+            <h2 class="section-title">💼 Career Opportunities</h2>
+            <ul class="content-list">
                 <li>Frontend Developer</li>
                 <li>React Developer</li>
                 <li>Full Stack Developer</li>
@@ -65,53 +53,54 @@
         </section>
 
         <!-- Certifications Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">🎓 Certifications</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener" class="hover:blue-400">Official React Documentation</a></li>
-                <li><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank" rel="noopener" class="hover:blue-400">Udemy React - The Complete Guide</a></li>
-                <li><a href="https://www.coursera.org/learn/front-end-react" target="_blank" rel="noopener" class="hover:blue-400">Coursera Front-End Web Development with React</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">🎓 Certifications</h2>
+            <ul class="content-list">
+                <li><a href="https://reactjs.org/docs/getting-started.html" target="_blank" rel="noopener noreferrer">Official React Documentation</a></li>
+                <li><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" target="_blank" rel="noopener noreferrer">Udemy React - The Complete Guide</a></li>
+                <li><a href="https://www.coursera.org/learn/front-end-react" target="_blank" rel="noopener noreferrer">Coursera Front-End Web Development with React</a></li>
             </ul>
         </section>
 
         <!-- Online Courses Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📚 Online Courses</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank" rel="noopener" class="hover:blue-400">Udacity React Nanodegree</a></li>
-                <li><a href="https://www.codecademy.com/learn/react-101" target="_blank" rel="noopener" class="hover:blue-400">Codecademy Learn React</a></li>
-                <li><a href="https://www.pluralsight.com/courses/react-js-getting-started" target="_blank" rel="noopener" class="hover:blue-400">Pluralsight React.js: Getting Started</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Online Courses</h2>
+            <ul class="content-list">
+                <li><a href="https://www.udacity.com/course/react-nanodegree--nd019" target="_blank" rel="noopener noreferrer">Udacity React Nanodegree</a></li>
+                <li><a href="https://www.codecademy.com/learn/react-101" target="_blank" rel="noopener noreferrer">Codecademy Learn React</a></li>
+                <li><a href="https://www.pluralsight.com/courses/react-js-getting-started" target="_blank" rel="noopener noreferrer">Pluralsight React.js: Getting Started</a></li>
             </ul>
         </section>
 
         <!-- YouTube Channels Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📺 YouTube Channels</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener" class="hover:blue-400">Academind</a></li>
-                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener" class="hover:blue-400">Traversy Media</a></li>
-                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener" class="hover:blue-400">The Net Ninja</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📺 YouTube Channels</h2>
+            <ul class="content-list">
+                <li><a href="https://www.youtube.com/c/Academind" target="_blank" rel="noopener noreferrer">Academind</a></li>
+                <li><a href="https://www.youtube.com/c/TraversyMedia" target="_blank" rel="noopener noreferrer">Traversy Media</a></li>
+                <li><a href="https://www.youtube.com/c/TheNetNinja" target="_blank" rel="noopener noreferrer">The Net Ninja</a></li>
             </ul>
         </section>
 
         <!-- Articles Section -->
-        <section class="glass-card p-6 rounded-xl shadow-md">
-            <h2 class="text-2xl font-semibold mb-4">📰 Articles</h2>
-            <ul class="list-disc list-inside text-gray-200">
-                <li><a href="https://reactjs.org/tutorial/tutorial.html" target="_blank" rel="noopener" class="hover:blue-400">React Official Tutorial</a></li>
-                <li><a href="https://css-tricks.com/learning-react/" target="_blank" rel="noopener" class="hover:blue-400">CSS-Tricks: Learning React</a></li>
-                <li><a href="https://www.freecodecamp.org/news/learn-react-js-in-this-free-7-hour-course/" target="_blank" rel="noopener" class="hover:blue-400">FreeCodeCamp: Learn React in 7 Hours</a></li>
+        <section class="roadmap-section">
+            <h2 class="section-title">📚 Further Reading</h2>
+            <ul class="content-list">
+                <li><a href="https://reactjs.org/blog/2020/10/20/react-v17.html" target="_blank" rel="noopener noreferrer">React 17 Release Notes</a></li>
+                <li><a href="https://blog.logrocket.com/why-react-is-so-popular-and-how-to-use-it-in-your-project/" target="_blank" rel="noopener noreferrer">Why React Is So Popular</a></li>
+                <li><a href="https://www.smashingmagazine.com/2020/06/react-best-practices/" target="_blank" rel="noopener noreferrer">React Best Practices</a></li>
+                <li><a href="https://www.freecodecamp.org/news/learn-react-js-in-this-free-7-hour-course/" target="_blank" rel="noopener noreferrer">FreeCodeCamp: Learn React in 7 Hours</a></li>
             </ul>
         </section>
         
         <!-- Back to langauges page -->
-        <div class="text-center mt-6">
-            <a href="../languages.html" class="hover:blue-400">← Back to Languages</a>
+        <div class="back-link-container">
+            <a href="../languages.html" class="back-link">← Back to Languages</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center text-gray-500 py-6 border-t border-gray-800">
+    <footer class="footer">
         <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
         <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>
