@@ -4,7 +4,7 @@
 
 ## 🌐 Live Preview
 
-*https://tech-road-map.vercel.app*
+*https://thetechroadmap.vercel.app*
 
 ## 📁 Project Structure
 
