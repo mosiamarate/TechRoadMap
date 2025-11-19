@@ -22,10 +22,19 @@ function setupPage(items, gridId, searchId, filterId, counterId, pageType) {
                 }
                 const card = document.createElement("div");
                 card.className = `glass-card p-4 rounded-xl cursor-pointer hover:bg-white/10 transition duration-300 ${isCompleted ? "completed" : ""}`;
+                card.setAttribute("role", "button");
+                card.setAttribute("tabindex", "0");
                 
-                card.onclick = () => {
+                const toggleCompletion = () => {
                     localStorage.setItem(item.id, !isCompleted);
                     render();
+                };
+
+                card.onclick = toggleCompletion;
+                card.onkeydown = (e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                        toggleCompletion();
+                    }
                 };
 
                 const linkPath = pageType === 'roadmap' ? `roadmaps/${item.id}.html` : `languages/${item.id}.html`;

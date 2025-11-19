@@ -35,14 +35,18 @@
         <a href="about.html">About Us</a>
         <span class="mx-2">|</span>
         <a href="languages.html">Languages</a>
+        <span class="mx-2">|</span>
+        <a href="jobs.html">Jobs</a>
       </nav>
     </header>
 
-    <!-- Search & Filter Controls -->
-    <div class="search-filter">
-      <input type="text" id="searchInput" placeholder="Search roadmaps..." />
-      <label for="filterSelect" class="sr-only">Filter Roadmaps</label>
-      <select id="filterSelect" class="filterselect" aria-label="Filter Roadmaps">
+    <main>
+      <!-- Search & Filter Controls -->
+      <div class="search-filter">
+        <label for="searchInput" class="sr-only">Search roadmaps</label>
+        <input type="text" id="searchInput" placeholder="Search roadmaps..." />
+        <label for="filterSelect" class="sr-only">Filter Roadmaps</label>
+        <select id="filterSelect" class="filterselect">
         <option value="all">All Categories</option>
         <option value="coding">Coding</option>
         <option value="cloud">Cloud</option>
@@ -50,50 +54,51 @@
         <option value="data">Data</option>
       </select>
     </div>
-
-    <!-- Completion Counter -->
-    <div id="completionCounter" class="text-right text-gray-400 mb-4"></div>
-
-    <!-- Grid for displaying roadmaps -->
-    <div id="roadmapGrid" class="roadmap-grid"></div>
-
-    <!-- Informational Section -->
-    <section class="info-section">
-      <h2>Why Tech Roadmaps?</h2>
-      <p>Tech Roadmaps provide a structured approach to learning and career development. Whether you're a beginner or experienced, use these to map out your journey.</p>
-    </section>
-
-    <!-- Guide Section on how to use the page -->
-    <section class="guide-section">
-      <h2>How to Use:</h2>
-      <p>Click on a roadmap card to mark it as completed. Filter or search for specific roadmaps by category or keywords.</p>
-    </section>
-
-    <!-- Statistics Section -->
-    <section class="stats-section">
-      <h2>Join Thousands of Successful Tech Professionals</h2>
-      <div class="stats-section grid">
-      <div>
-        <p class="stat-number blue">15+</p>
-        <div class="text-gray-300">Career Roadmaps</div>
-      </div>
-      <div>
-        <p class="stat-number green">100+</p>
-        <div class="text-gray-300">Learning Resources</div>
-      </div>
-      <div>
-        <p class="stat-number purple">24/7</p>
-        <div class="text-gray-300">Available Access</div>
-      </div>
-      </div>
-    </section>
+  
+      <!-- Completion Counter -->
+      <div id="completionCounter" class="text-right text-gray-400 mb-4"></div>
+  
+      <!-- Grid for displaying roadmaps -->
+      <div id="roadmapGrid" class="roadmap-grid"></div>
+  
+      <!-- Informational Section -->
+      <section class="info-section">
+        <h2>Why Tech Roadmaps?</h2>
+        <p>Tech Roadmaps provide a structured approach to learning and career development. Whether you're a beginner or experienced, use these to map out your journey.</p>
+      </section>
+  
+      <!-- Guide Section on how to use the page -->
+      <section class="guide-section">
+        <h2>How to Use:</h2>
+        <p>Click on a roadmap card to mark it as completed. Filter or search for specific roadmaps by category or keywords.</p>
+      </section>
+  
+      <!-- Statistics Section -->
+      <section class="stats-section">
+        <h2>Join Thousands of Successful Tech Professionals</h2>
+        <div class="stats-section grid">
+        <div>
+          <p id="roadmapCountStat" class="stat-number blue">0+</p>
+          <div class="text-gray-300">Career Roadmaps</div>
+        </div>
+        <div>
+          <p class="stat-number green">100+</p>
+          <div class="text-gray-300">Learning Resources</div>
+        </div>
+        <div>
+          <p class="stat-number purple">24/7</p>
+          <div class="text-gray-300">Available Access</div>
+        </div>
+        </div>
+      </section>
+    </main>
 
     <!-- Footer Section -->
     <footer class="footer">
       <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
       <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>
-  </div>
+      </div>
 
   <!-- JavaScript file for dynamic content -->
   <script src="renderer.js"></script>

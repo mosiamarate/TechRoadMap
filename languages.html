@@ -31,14 +31,18 @@
                 <a href="about.html">About Us</a>
                 <span class="mx-2">|</span>
                 <a href="languages.html">Languages</a>
+                <span class="mx-2">|</span>
+                <a href="jobs.html">Jobs</a>
             </nav>
         </header>
 
-        <!-- Search & Filter Controls -->
-        <div class="search-filter">
-            <input type="text" id="searchInput" placeholder="Search languages or frameworks..." />
-            <label for="filterSelect" class="sr-only">Filter by category</label>
-            <select id="filterSelect" class="filterselect" aria-label="Filter by category">
+        <main>
+            <!-- Search & Filter Controls -->
+            <div class="search-filter">
+                <label for="searchInput" class="sr-only">Search languages or frameworks</label>
+                <input type="text" id="searchInput" placeholder="Search languages or frameworks..." />
+                <label for="filterSelect" class="sr-only">Filter by category</label>
+                <select id="filterSelect" class="filterselect">
                 <option value="all">All Categories</option>
                 <option value="languages">Languages</option>
                 <option value="frameworks">Frameworks</option>
@@ -46,34 +50,35 @@
             </select>
         </div>
 
-        <!-- Completion Counter -->
-        <div id="completionCounter" class="text-right text-gray-400 mb-4"></div>
+            <!-- Completion Counter -->
+            <div id="completionCounter" class="text-right text-gray-400 mb-4"></div>
 
-        <!-- Grid for displaying languages and frameworks -->
-        <div id="languagesGrid" class="roadmap-grid"></div>
+            <!-- Grid for displaying languages and frameworks -->
+            <div id="languagesGrid" class="roadmap-grid"></div>
 
-        <!-- Informational Section -->
-        <section class="info-section">
-            <h2>Why Learn These?</h2>
-            <p>Understanding programming languages and frameworks is essential for building modern applications and advancing your career.</p>
-        </section>
+            <!-- Informational Section -->
+            <section class="info-section">
+                <h2>Why Learn These?</h2>
+                <p>Understanding programming languages and frameworks is essential for building modern applications and advancing your career.</p>
+            </section>
 
-        <!-- Guide Section on how to use the page -->
-        <section class="guide-section">
-            <h2>How to Use:</h2>
-            <p>Click on a language/framework card to mark it as completed. Filter or search for specific roadmaps by category or keywords.</p>
-        </section>
+            <!-- Guide Section on how to use the page -->
+            <section class="guide-section">
+                <h2>How to Use:</h2>
+                <p>Click on a language/framework card to mark it as completed. Filter or search for specific roadmaps by category or keywords.</p>
+            </section>
 
-        <!-- Back link to the main roadmaps page -->
-        <div class="back-link-container">
-            <a href="../index.html">← Back to Roadmaps</a>
-        </div>
+            <!-- Back link to the main roadmaps page -->
+            <div class="back-link-container">
+                <a href="index.html" class="back-link">← Back to Roadmaps</a>
+            </div>
+        </main>
 
-        <!-- Footer Section -->
-        <footer class="footer">
-            <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
-            <p>Created by <strong>MOSIA MARATE</strong></p>
-        </footer>
+            <!-- Footer Section -->
+            <footer class="footer">
+                <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
+                <p>Created by <strong>MOSIA MARATE</strong></p>
+            </footer>
     </div>
 
     <!-- JavaScript files for dynamic content -->

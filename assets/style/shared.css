@@ -6,6 +6,11 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.glass-card:focus-visible {
+    outline: 2px solid #60a5fa;
+    outline-offset: 2px;
+}
+
 .completed {
     border: 2px solid limegreen;
 }
@@ -68,7 +73,8 @@ input[type="text"]::placeholder {
     font-family: sans-serif;
     padding: 1.5rem;
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, #111827, #1f2937, #000000);
+    background-image: linear-gradient(to right, #0f172a, #111827, #000000);
+    background-size: 200% 200%;
 }
 
 /* Container styles */
@@ -92,6 +98,22 @@ input[type="text"]::placeholder {
     margin-bottom: 1rem;
 }
 
+/* Add to the end of assets/style/shared.css */
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    animation: gradient-animation 20s ease infinite;
+}
 .header p {
     color: #9ca3af;
 }
@@ -113,7 +135,7 @@ input[type="text"]::placeholder {
     cursor: pointer;
 }
 
-.header nav span {
+.header nav span, .nav span {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }

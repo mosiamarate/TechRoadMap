@@ -12,8 +12,12 @@
       { id: "data-analyst", title: "📊 Data Analyst", category: "data" },
       { id: "network-engineer", title: "📡 Network Engineer", category: "security" },
       { id: "ux-ui-designer", title: "🎨 UX/UI Designer", category: "coding" },
+      { id: "it-support-specialist", title: "💻 IT Support Specialist", category: "security" },
+      { id: "network-technician", title: "🔧 Network Technician", category: "security" },
     ];
 
 document.addEventListener('DOMContentLoaded', () => {
     setupPage(roadmaps, 'roadmapGrid', 'searchInput', 'filterSelect', 'completionCounter', 'roadmap');
+    const roadmapCountStat = document.getElementById('roadmapCountStat');
+    if (roadmapCountStat) roadmapCountStat.textContent = `${roadmaps.length}+`;
 });
