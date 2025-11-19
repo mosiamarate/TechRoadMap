@@ -87,6 +87,13 @@ input[type="text"]::placeholder {
     gap: 2rem;
 }
 
+/* Main content area spacing */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* This creates consistent vertical spacing */
+}
+
 /* Header styles */
 .header {
     text-align: center;
