@@ -67,6 +67,12 @@ input[type="text"]::placeholder {
     color: white;
 }
 
+/* Set a base dark background on the root HTML element to prevent white flashes on overscroll */
+html {
+    background-color: #0f172a; /* A dark color from your gradient */
+    height: 100%;
+}
+
 /* Body styles */
 .body, body {
     color: white;
