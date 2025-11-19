@@ -1,54 +1,57 @@
-Tech Roadmap Structure: 
+Tech Roadmap Structure (Updated):
 
 TechRoadMap/
 ├── index.html                  # Homepage
-├── README.md                   # Project documentation
 ├── about.html                  # About the platform
 ├── languages.html              # Programming & tech stacks overview
-├── language.js                 # JavaScript functionality for languages
+├── jobs.html                   # Job search portal page
+├── languages.js                # Data and setup for languages.html
 ├── techroadmap.js              # JavaScript functionality for roadmaps
+├── renderer.js                 # Shared rendering logic for dynamic grids
+├── README.md                   # Project documentation
 ├── Tech Roadmap Structure.txt  # Project planning notes
 ├── assets/
 │   ├── style/
-│   │   ├── index.css           # Homepage styles
-│   │   └── shared.css          # Shared styles across pages
-│   └── Mosia's image.png       # Profile or branding image
+│   │   ├── shared.css          # Shared styles across all pages
+│   │   └── about.css           # Specific styles for the about page
+│   └── Mosia's Image.png       # Profile or branding image
 ├── roadmaps/
 │   ├── backend-dev.html        # Backend Developer Roadmap
 │   ├── blockchain.html         # Blockchain Developer Roadmap
 │   ├── cloud-engineer.html     # Cloud Engineer Roadmap
 │   ├── cybersecurity.html      # Cybersecurity Specialist Roadmap
 │   ├── data-analyst.html       # Data Analyst Roadmap
-│   ├── devops.html             # DevOps Engineer Roadmap
+│   ├── devops.html             # DevOps Engineer Roadmap (File exists but not in context)
 │   ├── frontend-dev.html       # Frontend Developer Roadmap
-│   ├── fullstack-dev.html      # Fullstack Developer Roadmap
-│   ├── game-dev.html           # Game Developer Roadmap
+│   ├── fullstack-dev.html      # Fullstack Developer Roadmap (File exists but not in context)
+│   ├── game-dev.html           # Game Developer Roadmap (File exists but not in context)
+│   ├── it-support-specialist.html # IT Support Specialist Roadmap
 │   ├── ml-engineer.html        # Machine Learning Engineer Roadmap
-│   ├── network-engineer.html   # Network Engineer Roadmap
-│   └── ux-ui-designer.html     # UX/UI Designer Roadmap
+│   ├── network-engineer.html   # Network Engineer Roadmap (File exists but not in context)
+│   ├── network-technician.html # Network Technician Roadmap
+│   └── ux-ui-designer.html     # UX/UI Designer Roadmap (File exists but not in context)
 └── languages/
-    ├── javascript.html         # JavaScript Guide
-    ├── python.html             # Python Guide
-    ├── java.html               # Java Guide
-    ├── react.html              # React.js Guide
-    ├── angular.html            # Angular Guide
-    ├── django.html             # Django Guide
-    ├── nodejs.html             # Node.js Guide
-    ├── docker.html             # Docker Guide
-    ├── kubernetes.html         # Kubernetes Guide
-    ├── aws.html                # AWS Guide
-    ├── azure.html              # Azure Guide
-    ├── gcp.html                # Google Cloud Platform Guide
-    ├── html-css.html           # HTML & CSS Basics
-    ├── ruby-on-rails.html      # Ruby on Rails Guide
-    ├── flask.html              # Flask Guide
-    ├── swift.html              # Swift Guide
-    ├── php.html                # PHP Guide
-    ├── typescript.html         # TypeScript Guide
-    ├── csharp.html             # C# Guide
-    ├── go.html                 # Go (Golang) Guide
-    ├── rust.html               # Rust Guide
-    ├── flutter.html            # Flutter Guide
-    ├── vuejs.html              # Vue.js Guide
-    └── laravel.html            # Laravel Guide
-
+    ├── javascript.html         # JavaScript Guide (File exists but not in context)
+    ├── python.html             # Python Guide (File exists but not in context)
+    ├── java.html               # Java Guide (File exists but not in context)
+    ├── react.html              # React.js Guide (File exists but not in context)
+    ├── angular.html            # Angular Guide (File exists but not in context)
+    ├── django.html             # Django Guide (File exists but not in context)
+    ├── nodejs.html             # Node.js Guide (File exists but not in context)
+    ├── docker.html             # Docker Guide (File exists but not in context)
+    ├── kubernetes.html         # Kubernetes Guide (File exists but not in context)
+    ├── aws.html                # AWS Guide (File exists but not in context)
+    ├── azure.html              # Azure Guide (File exists but not in context)
+    ├── gcp.html                # Google Cloud Platform Guide (File exists but not in context)
+    ├── html-css.html           # HTML & CSS Basics (File exists but not in context)
+    ├── ruby-on-rails.html      # Ruby on Rails Guide (File exists but not in context)
+    ├── flask.html              # Flask Guide (File exists but not in context)
+    ├── swift.html              # Swift Guide (File exists but not in context)
+    ├── php.html                # PHP Guide (File exists but not in context)
+    ├── typescript.html         # TypeScript Guide (File exists but not in context)
+    ├── csharp.html             # C# Guide (File exists but not in context)
+    ├── go.html                 # Go (Golang) Guide (File exists but not in context)
+    ├── rust.html               # Rust Guide (File exists but not in context)
+    ├── flutter.html            # Flutter Guide (File exists but not in context)
+    ├── vuejs.html              # Vue.js Guide (File exists but not in context)
+    └── laravel.html            # Laravel Guide (File exists but not in context)
