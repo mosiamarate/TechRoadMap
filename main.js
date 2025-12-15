@@ -1,13 +1,10 @@
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next"
+import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
+ 
+// These functions will inject the Vercel analytics and speed insights scripts
+// into the <head> of your document.
+// Call them once, ideally right after your page loads.
+inject();
+injectSpeedInsights();
 
-export function App() {
-  return (
-    <>
-        <SpeedInsights />
-        <Analytics />
-    </>
-  );
-}
-
-export default App;
+console.log("Vercel Analytics and Speed Insights have been injected.");

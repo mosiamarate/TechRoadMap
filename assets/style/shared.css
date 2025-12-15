@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
 /* Shared styles across all pages */
 .glass-card {
     background: rgba(255, 255, 255, 0.05);
@@ -412,4 +414,106 @@ body {
 
 .footer strong {
     font-weight: 600;
+}
+
+/* Styles moved from about.css */
+.mission {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.05);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mission:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mission h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.creator-card {
+    background: rgba(59, 130, 246, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.creator-card h2 {
+    color: #93c5fd;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    text-decoration: uppercase;
+    margin-bottom: 1rem;
+}
+
+.creator-content h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    color: #93c5fd;
+}
+
+.creator-content p {
+    margin-top: 0.5rem;
+    color: #d1d5db;
+}
+
+.contact-card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    background: rgba(16, 185, 129, 0.1);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.contact-card h2 {
+    color: #6ee7b7;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.contact-card p, .contact-card ul {
+    color: #d1d5db;
+}
+
+.contact-card ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+.contact-card a:hover {
+    color: #34d399;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.social-links a:hover {
+    color: #34d399;
+}
+
+.social-links i {
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
