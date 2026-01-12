@@ -16,10 +16,11 @@
     
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="assets/style/shared.css">
+    <link rel="stylesheet" href="assets/style/about.css">
 </head>
 <body class="body">
     <!-- Main content container -->
-    <div class="main-container">
+    <div class="container">
         
         <!-- Page Header -->
         <header class="header">
@@ -32,8 +33,8 @@
                 <a href="about.html">About Us</a>
                 <span class="mx-2">|</span>
                 <a href="languages.html">Languages</a>
-                <span class="mx-2">|</span>
-                <a href="jobs.html">Jobs</a>
+                <!-- <span class="mx-2">|</span>
+                <a href="jobs.html">Jobs</a> -->
             </nav>
         </header>
 
@@ -92,10 +93,13 @@
 
     </div>
 
-    <!-- Page Footer -->
+    <!-- Footer Section -->
     <footer class="footer">
-        <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
-        <p>Created by <strong>MOSIA MARATE</strong></p>
+      <script>
+        const year = new Date().getFullYear();
+        document.write(`&copy; ${year} Tech Roadmaps. All rights reserved.`); 
+      </script>
+      <p>Created by <strong>MOSIA MARATE</strong></p>
     </footer>
 
 </body>

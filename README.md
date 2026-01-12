@@ -14,17 +14,19 @@ TechRoadMap/
 ├── README.md                   # Project documentation
 ├── about.html                  # About the platform
 ├── languages.html              # Programming & tech stacks overview
-├── language.js                 # JavaScript functionality for languages
+├── jobs.html                   # Job search portal page
+├── languages.js                # JavaScript functionality for languages
 ├── techroadmap.js              # JavaScript functionality for roadmaps
 ├── renderer.js                 # JavaScript functionality for rendering content
 ├── Tech Roadmap Structure.txt  # Project planning notes
 ├── assets/
 │   ├── style/
 │   │   ├── index.css           # Homepage styles
-│   │   ├── about.css           # aAbout page styles
+│   │   ├── about.css           # About page styles
 │   │   └── shared.css          # Shared styles across pages
-│   └── Mosia's image.png       # Profile or branding image
+│   └── mosia-marate.png        # Profile or branding image
 ├── roadmaps/
+│   ├── ai-engineer.html        # AI Engineer Roadmap
 │   ├── backend-dev.html        # Backend Developer Roadmap
 │   ├── blockchain.html         # Blockchain Developer Roadmap
 │   ├── cloud-engineer.html     # Cloud Engineer Roadmap
@@ -34,8 +36,11 @@ TechRoadMap/
 │   ├── frontend-dev.html       # Frontend Developer Roadmap
 │   ├── fullstack-dev.html      # Fullstack Developer Roadmap
 │   ├── game-dev.html           # Game Developer Roadmap
+│   ├── it-support-specialist.html # IT Support Specialist Roadmap
 │   ├── ml-engineer.html        # Machine Learning Engineer Roadmap
+│   ├── mobile-development.html # Mobile Development Roadmap
 │   ├── network-engineer.html   # Network Engineer Roadmap
+│   ├── network-technician.html # Network Technician Roadmap
 │   └── ux-ui-designer.html     # UX/UI Designer Roadmap
 └── languages/
     ├── javascript.html         # JavaScript Guide
@@ -95,6 +100,7 @@ TechRoadMap/
 3. **Start exploring**
    - Browse career roadmaps in the `/roadmaps` directory
    - Check out language guides in the `/languages` directory
+   - Learn more about the project in `about.html`
    - Customize the content to fit your learning goals
 
 ## 🙋‍♂️ About the Creator

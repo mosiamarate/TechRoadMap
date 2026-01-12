@@ -31,8 +31,8 @@
                 <a href="about.html">About Us</a>
                 <span class="mx-2">|</span>
                 <a href="languages.html">Languages</a>
-                <span class="mx-2">|</span>
-                <a href="jobs.html">Jobs</a>
+                <!-- <span class="mx-2">|</span>
+                <a href="jobs.html">Jobs</a> -->
             </nav>
         </header>
 
@@ -76,7 +76,10 @@
 
             <!-- Footer Section -->
             <footer class="footer">
-                <p>&copy; 2025 Tech Roadmaps. All rights reserved.</p>
+                <script>
+                    const year = new Date().getFullYear();
+                    document.write(`&copy; ${year} Tech Roadmaps. All rights reserved.`); 
+                </script>
                 <p>Created by <strong>MOSIA MARATE</strong></p>
             </footer>
     </div>
@@ -84,6 +87,5 @@
     <!-- JavaScript files for dynamic content -->
     <script src="renderer.js"></script>
     <script src="languages.js"></script>
-    <script src="main.js" type="module"></script>
 </body>
 </html>
